@@ -1,0 +1,12 @@
+#wrapper { margin: 50px auto; width: 106px; }
+
+#wrapper img { opacity: .25; position: absolute; }
+
+#wrapper img:nth-child(1) { opacity: .75; padding: 0px; }
+
+#wrapper img:nth-child(2) { padding: 2px 0 0; opacity: 0.5;	}
+#wrapper img:nth-child(3) { padding: 3px 0 0; opacity: 0.25; }
+
+/* hover */
+#wrapper:hover img { opacity: 0; -webkit-transition: opacity .1s ease-out; }
+#wrapper:hover img:nth-child(1) { opacity: 1; }

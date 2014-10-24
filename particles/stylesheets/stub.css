@@ -1,0 +1,31 @@
+.black { background: #000; }
+
+#topContainer { height: 330px; margin: 0 auto; width: 940px; }
+
+#headerImg { left: -625px; position: relative; height: 768px; width:2040px; left:-200px;  }
+
+#mainContent { background: #fff url("../images/main_edge.gif") no-repeat; margin: 0 auto; width: 940px }
+
+.text { padding: 20px; z-index: 1000; }
+
+.blog_logo {
+    background: url("../images/moonpie_logo.png") repeat scroll 0 0 transparent;
+	display: block;
+    height: 336px;
+    left: -35px;
+    position: relative;
+    text-indent: -9999px;
+    top: -773px;
+    width: 365px;
+}
+
+.moonpiemike_sig {
+	background: url("../images/moonpie_mike_sig.gif") repeat scroll 0 0 transparent;
+	display: block;
+    height: 90px;
+    left: 879px;
+    position: relative;
+    text-indent: -9999px;
+    top: 266px;
+    width: 387px;
+}

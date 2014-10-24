@@ -1,0 +1,18 @@
+body { overflow: hidden; }
+
+.black { background: #000; }
+.dark { background: #111; }
+.light { background: #999; }
+.white { background: #FFF; }
+
+.particle { position: absolute; }
+
+.blue { background: #0e1b42; border: 1px solid #0d48ef; }
+.brown { background: #46361f; border: 1px solid #8c6a3a; }
+.dkGrey { background: #333; border: 1px solid #000; }
+.green { background: #003300; border: 1px solid #00FF00; }
+.ltGrey { background: #555; border: 1px solid #333; }
+.orange { background: #663300; border: 1px solid #ff6600; }
+.purple { background: #541f79; border: 1px solid #8831c5; }
+.white { background: #555; border: 1px solid #fff; }
+.yellow { background: #666600; border: 1px solid #ffff00; }
