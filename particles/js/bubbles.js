@@ -66,12 +66,7 @@ function setBubbleXFloat() {
 }
 
 function styleBubble(bubble, bubbleAlpha, bubbleScale, bubbleStartX) {
-	$(bubble).css('border-radius', bubbleScale);
-	$(bubble).css('height', bubbleScale);
-	$(bubble).css('left', bubbleStartX);
-	$(bubble).css('opacity', bubbleAlpha);
-	$(bubble).css('width', bubbleScale);
-	$(bubble).css('-moz-border-radius', bubbleScale);
+	$(bubble).css({'border-radius': bubbleScale, 'height': bubbleScale, 'left': bubbleStartX, 'opacity': bubbleAlpha, 'width': bubbleScale, '-moz-border-radius': bubbleScale});
 }
 
 function tweenBubble(bubble, bubbleStartX, bubbleFinishX, bubbleTweenTime) {
